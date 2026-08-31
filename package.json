@@ -1,0 +1,49 @@
+{
+  "name": "@hil/sdk",
+  "version": "0.1.0-alpha.1",
+  "description": "Human Infrastructure Layer — AI agents call human capabilities as a cloud API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "human-in-the-loop",
+    "infrastructure",
+    "kyc",
+    "inspection",
+    "ai-agents",
+    "api",
+    "hil"
+  ],
+  "author": "Human Infrastructure Layer <hello@hil.dev>",
+  "license": "BSL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hil-dev/hil.git"
+  },
+  "homepage": "https://github.com/hil-dev/hil#readme",
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.5.0",
+    "tsx": "^4.16.0",
+    "vitest": "^2.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0",
+    "@types/node": "^20.14.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
