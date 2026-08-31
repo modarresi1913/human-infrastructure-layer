@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://modarresi1913.github.io/human-infrastructure-layer/sitemap.xml

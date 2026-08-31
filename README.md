@@ -10,9 +10,9 @@
 
 # Human Infrastructure Layer
 
-**The global infrastructure that lets AI agents call human capabilities as a cloud API.**
+**The global infrastructure protocol that lets AI agents call verified human capabilities — [KYC verification](#api-reference), [physical property inspection](#api-reference), and [common-sense decision review](#api-reference) — as simple cloud API endpoints.**
 
-Not renting workers — instant access to *physical human presence* as a primitive computing layer.
+Not renting workers — instant access to *physical human presence* as a primitive computing layer. Built for the age of autonomous [AI agents](https://github.com/topics/ai-agents).
 
 <br/>
 
@@ -608,6 +608,14 @@ Mechanical Turk is a **task marketplace for humans** — humans post tasks, huma
 | **[Head of AI]** | Published researcher in human-AI collaboration. Former research scientist at DeepMind. |
 
 > We're hiring operators, engineers, and believers. [See open roles →](#)
+
+## See Also
+
+- [**LangChain Human Tools**](https://python.langchain.com/docs/) — Integrate HIL as a LangChain tool for agent workflows
+- [**EU AI Act (2026)**](https://artificialintelligenceact.eu/) — European regulation mandating human oversight for high-risk AI systems
+- [**USDC on Base**](https://www.coinbase.com/base) — Stablecoin infrastructure powering instant operator payments
+- [**AI Agent Landscape 2026**](https://github.com/e2b-dev/awesome-ai-agents) — Curated list of AI agent frameworks and tools
+- Related: [human-in-the-loop](https://github.com/topics/human-in-the-loop), [AI safety](https://github.com/topics/ai-safety), [identity verification](https://github.com/topics/identity-verification), [insurtech](https://github.com/topics/insurtech)
 
 ---
 
